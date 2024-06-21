@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.rang{
+    background-color: #014E56;
+}
+.myteam{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 83px 83px;
+}
+.myteam ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+ul a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.menu-btn {
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: inherit;
+
+    display: none;
+}
+.btn{
+    padding: 15px 20px 15px 20px;
+    border: 2px color( rgb(255, 253, 253) rgb(255, 255, 255) rgb(255, 255, 255));
+    border-radius: 25px;
+    background-color: #014E56;
+    color: white;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: rgb(0, 242, 93);
+    font-size: 20px;
+
+}
+ul a:hover{
+    color: rgb(0, 242, 93);
+    font-size: 25px;
+}
+.about{
+    padding: 120px 120px ;
+}
+.about-text1{
+    font-size: 18px;
+    color: white;
+}
+.about-textp{
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.about-text1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about-text1:hover{
+    color: rgb(0, 242, 93);
+}
+.text{
+    font-size: 30px;
+    padding-top: 71px;
+    align-items: center;
+
+    color: white;
+}
+.meet{
+ padding: 50px 50px ;
+}
+.hero{
+    background-color: #004047;
+}
+.meet-text h2{
+    color: #79C8C7;
+}
+.meet-text
+h4 i{
+ color: white;
+}
+.jami{
+    background-color: #012F34;
+    width: 180px;
+    padding: 10px 10px 10px 35px ;
+}
+.meet{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.directors{
+  display:  flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.jakarta{
+    background-color: #012F34;
+}
+.some{
+    padding: 40px 40px ;
+}
+.some-text{
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 280px;
+}
+.the{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+}
+.btnm{
+    background-color: #F67E7E;
+    border: 3px solid;
+    border-radius: 35px;
+    padding: 10px 20px 10px 20px;
+    color: black;
+}
+.btnm:hover{
+    background-color: whitesmoke;
+    color:#F67E7E;
+}
+.get{
+    background-color: #F67E7E;
+}
+.started-text{
+    color: black;
+    font-size: 25px;
+}
+.started{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 45px 45px;
+}
+.my{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 40px 40px ;
+}
+.foot{
+    background-color: black;
+}
+.johon{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.the-img img{
+    width: 150px;
+}
+
+
+
+
+
+
+
+@media(max-width:930px){
+    .some-text{
+        padding-left: 0;
+    }
+   .about{
+    flex-direction: column;
+   }
+   .directors{
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+   }
+}
+
+
+
+@media(max-width:630px){
+    header{
+        padding: 40px ;
+    }
+    .myteam ul{
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .started{
+        flex-direction: column;
+    }
+}
